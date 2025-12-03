@@ -1,5 +1,5 @@
 //
-//  PrismPDFUITests.swift
+//  YourBasicPDFUITests.swift
 //  YourBasicPDF
 //
 //  Created by Azzam Ubaidillah on 03/12/25.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class PrismPDFUITests: XCTestCase {
+final class YourBasicPDFUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

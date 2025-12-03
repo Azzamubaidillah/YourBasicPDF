@@ -1,5 +1,5 @@
 //
-//  PrismPDFUITestsLaunchTests.swift
+//  YourBasicPDFUITestsLaunchTests.swift
 //  YourBasicPDF
 //
 //  Created by Azzam Ubaidillah on 03/12/25.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class PrismPDFUITestsLaunchTests: XCTestCase {
+final class YourBasicPDFUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -12,37 +12,37 @@
 			containerPortal = 87A7AC2A2EE00338009AF14F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 87A7AC312EE00338009AF14F;
-			remoteInfo = PrismPDF;
+			remoteInfo = YourBasicPDF;
 		};
 		87A7AC4C2EE0033C009AF14F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 87A7AC2A2EE00338009AF14F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 87A7AC312EE00338009AF14F;
-			remoteInfo = PrismPDF;
+			remoteInfo = YourBasicPDF;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		87A7AC322EE00338009AF14F /* PrismPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrismPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		87A7AC412EE0033C009AF14F /* PrismPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrismPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87A7AC4B2EE0033C009AF14F /* PrismPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrismPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A7AC322EE00338009AF14F /* YourBasicPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourBasicPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A7AC412EE0033C009AF14F /* YourBasicPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourBasicPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A7AC4B2EE0033C009AF14F /* YourBasicPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourBasicPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		87A7AC342EE00338009AF14F /* PrismPDF */ = {
+		87A7AC342EE00338009AF14F /* YourBasicPDF */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PrismPDF;
+			path = YourBasicPDF;
 			sourceTree = "<group>";
 		};
-		87A7AC442EE0033C009AF14F /* PrismPDFTests */ = {
+		87A7AC442EE0033C009AF14F /* YourBasicPDFTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PrismPDFTests;
+			path = YourBasicPDFTests;
 			sourceTree = "<group>";
 		};
-		87A7AC4E2EE0033C009AF14F /* PrismPDFUITests */ = {
+		87A7AC4E2EE0033C009AF14F /* YourBasicPDFUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PrismPDFUITests;
+			path = YourBasicPDFUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		87A7AC292EE00338009AF14F = {
 			isa = PBXGroup;
 			children = (
-				87A7AC342EE00338009AF14F /* PrismPDF */,
-				87A7AC442EE0033C009AF14F /* PrismPDFTests */,
-				87A7AC4E2EE0033C009AF14F /* PrismPDFUITests */,
+				87A7AC342EE00338009AF14F /* YourBasicPDF */,
+				87A7AC442EE0033C009AF14F /* YourBasicPDFTests */,
+				87A7AC4E2EE0033C009AF14F /* YourBasicPDFUITests */,
 				87A7AC332EE00338009AF14F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		87A7AC332EE00338009AF14F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87A7AC322EE00338009AF14F /* PrismPDF.app */,
-				87A7AC412EE0033C009AF14F /* PrismPDFTests.xctest */,
-				87A7AC4B2EE0033C009AF14F /* PrismPDFUITests.xctest */,
+				87A7AC322EE00338009AF14F /* YourBasicPDF.app */,
+				87A7AC412EE0033C009AF14F /* YourBasicPDFTests.xctest */,
+				87A7AC4B2EE0033C009AF14F /* YourBasicPDFUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87A7AC312EE00338009AF14F /* PrismPDF */ = {
+		87A7AC312EE00338009AF14F /* YourBasicPDF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87A7AC552EE0033C009AF14F /* Build configuration list for PBXNativeTarget "PrismPDF" */;
+			buildConfigurationList = 87A7AC552EE0033C009AF14F /* Build configuration list for PBXNativeTarget "YourBasicPDF" */;
 			buildPhases = (
 				87A7AC2E2EE00338009AF14F /* Sources */,
 				87A7AC2F2EE00338009AF14F /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				87A7AC342EE00338009AF14F /* PrismPDF */,
+				87A7AC342EE00338009AF14F /* YourBasicPDF */,
 			);
-			name = PrismPDF;
+			name = YourBasicPDF;
 			packageProductDependencies = (
 			);
-			productName = PrismPDF;
-			productReference = 87A7AC322EE00338009AF14F /* PrismPDF.app */;
+			productName = YourBasicPDF;
+			productReference = 87A7AC322EE00338009AF14F /* YourBasicPDF.app */;
 			productType = "com.apple.product-type.application";
 		};
-		87A7AC402EE0033C009AF14F /* PrismPDFTests */ = {
+		87A7AC402EE0033C009AF14F /* YourBasicPDFTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87A7AC582EE0033C009AF14F /* Build configuration list for PBXNativeTarget "PrismPDFTests" */;
+			buildConfigurationList = 87A7AC582EE0033C009AF14F /* Build configuration list for PBXNativeTarget "YourBasicPDFTests" */;
 			buildPhases = (
 				87A7AC3D2EE0033C009AF14F /* Sources */,
 				87A7AC3E2EE0033C009AF14F /* Frameworks */,
@@ -131,18 +131,18 @@
 				87A7AC432EE0033C009AF14F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				87A7AC442EE0033C009AF14F /* PrismPDFTests */,
+				87A7AC442EE0033C009AF14F /* YourBasicPDFTests */,
 			);
-			name = PrismPDFTests;
+			name = YourBasicPDFTests;
 			packageProductDependencies = (
 			);
-			productName = PrismPDFTests;
-			productReference = 87A7AC412EE0033C009AF14F /* PrismPDFTests.xctest */;
+			productName = YourBasicPDFTests;
+			productReference = 87A7AC412EE0033C009AF14F /* YourBasicPDFTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		87A7AC4A2EE0033C009AF14F /* PrismPDFUITests */ = {
+		87A7AC4A2EE0033C009AF14F /* YourBasicPDFUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87A7AC5B2EE0033C009AF14F /* Build configuration list for PBXNativeTarget "PrismPDFUITests" */;
+			buildConfigurationList = 87A7AC5B2EE0033C009AF14F /* Build configuration list for PBXNativeTarget "YourBasicPDFUITests" */;
 			buildPhases = (
 				87A7AC472EE0033C009AF14F /* Sources */,
 				87A7AC482EE0033C009AF14F /* Frameworks */,
@@ -154,13 +154,13 @@
 				87A7AC4D2EE0033C009AF14F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				87A7AC4E2EE0033C009AF14F /* PrismPDFUITests */,
+				87A7AC4E2EE0033C009AF14F /* YourBasicPDFUITests */,
 			);
-			name = PrismPDFUITests;
+			name = YourBasicPDFUITests;
 			packageProductDependencies = (
 			);
-			productName = PrismPDFUITests;
-			productReference = 87A7AC4B2EE0033C009AF14F /* PrismPDFUITests.xctest */;
+			productName = YourBasicPDFUITests;
+			productReference = 87A7AC4B2EE0033C009AF14F /* YourBasicPDFUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 87A7AC2D2EE00338009AF14F /* Build configuration list for PBXProject "PrismPDF" */;
+			buildConfigurationList = 87A7AC2D2EE00338009AF14F /* Build configuration list for PBXProject "YourBasicPDF" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87A7AC312EE00338009AF14F /* PrismPDF */,
-				87A7AC402EE0033C009AF14F /* PrismPDFTests */,
-				87A7AC4A2EE0033C009AF14F /* PrismPDFUITests */,
+				87A7AC312EE00338009AF14F /* YourBasicPDF */,
+				87A7AC402EE0033C009AF14F /* YourBasicPDFTests */,
+				87A7AC4A2EE0033C009AF14F /* YourBasicPDFUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		87A7AC432EE0033C009AF14F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 87A7AC312EE00338009AF14F /* PrismPDF */;
+			target = 87A7AC312EE00338009AF14F /* YourBasicPDF */;
 			targetProxy = 87A7AC422EE0033C009AF14F /* PBXContainerItemProxy */;
 		};
 		87A7AC4D2EE0033C009AF14F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 87A7AC312EE00338009AF14F /* PrismPDF */;
+			target = 87A7AC312EE00338009AF14F /* YourBasicPDF */;
 			targetProxy = 87A7AC4C2EE0033C009AF14F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,7 +409,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.PrismPDF;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.YourBasicPDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -441,7 +441,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.PrismPDF;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.YourBasicPDF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -463,14 +463,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.PrismPDFTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.YourBasicPDFTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrismPDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrismPDF";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YourBasicPDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YourBasicPDF";
 			};
 			name = Debug;
 		};
@@ -484,14 +484,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.PrismPDFTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.YourBasicPDFTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrismPDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrismPDF";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YourBasicPDF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YourBasicPDF";
 			};
 			name = Release;
 		};
@@ -503,14 +503,14 @@
 				DEVELOPMENT_TEAM = 6X6Q46SLSA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.PrismPDFUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.YourBasicPDFUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = PrismPDF;
+				TEST_TARGET_NAME = YourBasicPDF;
 			};
 			name = Debug;
 		};
@@ -522,21 +522,21 @@
 				DEVELOPMENT_TEAM = 6X6Q46SLSA;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.PrismPDFUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzamubaidillah.YourBasicPDFUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = PrismPDF;
+				TEST_TARGET_NAME = YourBasicPDF;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87A7AC2D2EE00338009AF14F /* Build configuration list for PBXProject "PrismPDF" */ = {
+		87A7AC2D2EE00338009AF14F /* Build configuration list for PBXProject "YourBasicPDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87A7AC532EE0033C009AF14F /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87A7AC552EE0033C009AF14F /* Build configuration list for PBXNativeTarget "PrismPDF" */ = {
+		87A7AC552EE0033C009AF14F /* Build configuration list for PBXNativeTarget "YourBasicPDF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87A7AC562EE0033C009AF14F /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87A7AC582EE0033C009AF14F /* Build configuration list for PBXNativeTarget "PrismPDFTests" */ = {
+		87A7AC582EE0033C009AF14F /* Build configuration list for PBXNativeTarget "YourBasicPDFTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87A7AC592EE0033C009AF14F /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87A7AC5B2EE0033C009AF14F /* Build configuration list for PBXNativeTarget "PrismPDFUITests" */ = {
+		87A7AC5B2EE0033C009AF14F /* Build configuration list for PBXNativeTarget "YourBasicPDFUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87A7AC5C2EE0033C009AF14F /* Debug */,

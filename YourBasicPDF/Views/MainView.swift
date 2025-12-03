@@ -24,7 +24,11 @@ struct MainView: View {
             SidebarView(viewModel: viewModel)
                 .navigationSplitViewColumnWidth(min: 200, ideal: 250, max: 300)
         } detail: {
-            if isGridView {
+            if viewModel.pdfDocument == nil {
+                WelcomeView {
+                    openPDF()
+                }
+            } else if isGridView {
                 GridView(viewModel: viewModel)
             } else {
                 PDFCanvasView(viewModel: viewModel)
@@ -340,5 +344,32 @@ struct GoToPageView: View {
             onGo(number)
             isPresented = false
         }
+    }
+}
+
+struct WelcomeView: View {
+    var onOpen: () -> Void
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            Image(systemName: "doc.text.viewfinder")
+                .font(.system(size: 60))
+                .foregroundColor(.secondary)
+            
+            Text("No PDF Loaded")
+                .font(.title)
+                .foregroundColor(.secondary)
+            
+            Text("Open a PDF file to start editing.")
+                .foregroundColor(.secondary)
+            
+            Button("Open PDF") {
+                onOpen()
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.large)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(NSColor.controlBackgroundColor))
     }
 }
