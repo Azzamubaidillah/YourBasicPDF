@@ -1,6 +1,6 @@
 //
 //  PrismPDFUITests.swift
-//  PrismPDFUITests
+//  YourBasicPDF
 //
 //  Created by Azzam Ubaidillah on 03/12/25.
 //
