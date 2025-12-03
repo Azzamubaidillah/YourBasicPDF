@@ -1,4 +1,4 @@
-# YourBasicPDF 📄✨
+# YourBasicPDF
 
 **Because you just want to read the damn file.**
 
